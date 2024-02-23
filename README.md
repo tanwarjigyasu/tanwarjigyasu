@@ -124,13 +124,19 @@
 
 <div align="center">
   <a href="https://open.spotify.com/user/tanwarjigyasu">
-    <img src="https://spotify-github-profile.vercel.app/api/view?uid=31c7dst7a3tjbuiep2lymyjgzlry&cover_image=true&theme=novatorem&show_offline=true&interchange=false&bar_color=53b14f&bar_color_cover=false" alt="Spotify Currently Playing">
+    <img
+      src="https://spotify-github-profile.vercel.app/api/view?uid=31c7dst7a3tjbuiep2lymyjgzlry&cover_image=true&theme=novatorem&show_offline=true&interchange=false&bar_color=53b14f&bar_color_cover=false"
+      alt="Spotify Currently Playing"
+    />
   </a>
 </div>
 
 <div align="center">
   <a href="https://open.spotify.com/user/tanwarjigyasu">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=31c7dst7a3tjbuiep2lymyjgzlry&count=5" alt="Spotify Recently Played">
+    <img
+      src="https://spotify-recently-played-readme.vercel.app/api?user=31c7dst7a3tjbuiep2lymyjgzlry&count=5"
+      alt="Spotify Recently Played"
+    />
   </a>
 </div>
 
@@ -153,64 +159,66 @@
 <div align="center">
   <picture>
     <source
-      srcset="https://github-profile-trophy.vercel.app/?username=tanwarjigyasu&margin-w=5&margin-h=5&no-frame=true&column=3&theme=discord"
+      srcset="https://github-profile-trophy.vercel.app?column=3&margin-h=5&margin-w=5&no-bg=true&no-frame=true&rank=-?&theme=discord&username=tanwarjigyasu"
       media="(max-width: 480px), (prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-profile-trophy.vercel.app/?username=tanwarjigyasu&margin-w=5&margin-h=5&no-frame=true&column=4&theme=discord"
+      srcset="https://github-profile-trophy.vercel.app?column=4&margin-h=5&margin-w=5&no-bg=true&no-frame=true&rank=-?&theme=discord&username=tanwarjigyasu"
       media="(max-width: 800px), (prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-profile-trophy.vercel.app/?username=tanwarjigyasu&margin-w=5&margin-h=5&no-frame=true&theme=discord"
+      srcset="https://github-profile-trophy.vercel.app?margin-h=5&margin-w=5&no-bg=true&no-frame=true&rank=-?&theme=discord&username=tanwarjigyasu"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-profile-trophy.vercel.app/?username=tanwarjigyasu&margin-w=5&margin-h=5&no-frame=true&column=3&theme=flat"
+      srcset="https://github-profile-trophy.vercel.app?column=3&margin-h=5&margin-w=5&no-bg=true&no-frame=true&rank=-?&theme=flat&username=tanwarjigyasu"
       media="(max-width: 480px), (prefers-color-scheme: light, (prefers-color-scheme: no-preference)"
     />
     <source
-      srcset="https://github-profile-trophy.vercel.app/?username=tanwarjigyasu&margin-w=5&margin-h=5&no-frame=true&column=4&theme=flat"
+      srcset="https://github-profile-trophy.vercel.app?column=4&margin-h=5&margin-w=5&no-bg=true&no-frame=true&rank=-?&theme=flat&username=tanwarjigyasu"
       media="(max-width: 800px), (prefers-color-scheme: light, (prefers-color-scheme: no-preference)"
     />
     <source
-      srcset="https://github-profile-trophy.vercel.app/?username=tanwarjigyasu&margin-w=5&margin-h=5&no-frame=true&theme=flat"
+      srcset="https://github-profile-trophy.vercel.app?margin-h=5&margin-w=5&no-bg=true&no-frame=true&rank=-?&theme=flat&username=tanwarjigyasu"
       media="(prefers-color-scheme: light, (prefers-color-scheme: no-preference)"
     />
     <img
-      src="https://github-profile-trophy.vercel.app/?username=tanwarjigyasu&margin-w=5&margin-h=5&no-frame=true"
+      src="https://github-profile-trophy.vercel.app?margin-h=5&margin-w=5&no-bg=true&no-frame=true&rank=-?&username=tanwarjigyasu"
     />
   </picture>
 </div>
+
+&nbsp;
 
 <table align="center">
   <tr>
     <td>
       <picture>
         <source
-          srcset="https://github-readme-stats.vercel.app/api?border_radius=10&hide_border=true&rank_icon=github&show_icons=true&theme=github_dark&username=tanwarjigyasu"
+          srcset="https://github-readme-stats.vercel.app/api?bg_color=00000000&border_radius=10&hide_border=true&rank_icon=github&show_icons=true&theme=github_dark&username=tanwarjigyasu"
           media="(prefers-color-scheme: dark)"
         />
         <source
-          srcset="https://github-readme-stats.vercel.app/api?border_radius=10&hide_border=true&rank_icon=github&show_icons=true&theme=github_light&username=tanwarjigyasu"
+          srcset="https://github-readme-stats.vercel.app/api?bg_color=00000000&border_radius=10&hide_border=true&rank_icon=github&show_icons=true&theme=github_light&username=tanwarjigyasu"
           media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
         />
         <img
-          src="https://github-readme-stats.vercel.app/api?border_radius=10&hide_border=true&rank_icon=github&show_icons=true&username=tanwarjigyasu"
+          src="https://github-readme-stats.vercel.app/api?bg_color=00000000&border_radius=10&hide_border=true&rank_icon=github&show_icons=true&username=tanwarjigyasu"
         />
       </picture>
     </td>
     <td>
       <picture>
         <source
-          srcset="https://github-readme-stats.vercel.app/api/top-langs?border_radius=10&hide_border=true&layout=donut&rank_icon=github&show_icons=true&theme=github_dark&username=tanwarjigyasu"
+          srcset="https://github-readme-stats.vercel.app/api/top-langs?bg_color=00000000&border_radius=10&hide_border=true&layout=donut&rank_icon=github&show_icons=true&theme=github_dark&username=tanwarjigyasu"
           media="(prefers-color-scheme: dark)"
         />
         <source
-          srcset="https://github-readme-stats.vercel.app/api/top-langs?border_radius=10&hide_border=true&layout=donut&rank_icon=github&show_icons=true&theme=github_light&username=tanwarjigyasu"
+          srcset="https://github-readme-stats.vercel.app/api/top-langs?bg_color=00000000&border_radius=10&hide_border=true&layout=donut&rank_icon=github&show_icons=true&theme=github_light&username=tanwarjigyasu"
           media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
         />
         <img
-          src="https://github-readme-stats.vercel.app/api/top-langs?border_radius=10&hide_border=true&layout=donut&rank_icon=github&show_icons=true&username=tanwarjigyasu"
+          src="https://github-readme-stats.vercel.app/api/top-langs?bg_color=00000000&border_radius=10&hide_border=true&layout=donut&rank_icon=github&show_icons=true&username=tanwarjigyasu"
         />
       </picture>
     </td>
@@ -220,15 +228,15 @@
 <div align="center">
   <picture>
     <source
-      srcset="https://github-readme-stats.vercel.app/api/wakatime?border_radius=10&hide_border=true&layout=compact&theme=github_dark&username=tanwarjigyasu"
+      srcset="https://github-readme-stats.vercel.app/api/wakatime?bg_color=00000000&border_radius=10&hide_border=true&layout=compact&theme=github_dark&username=tanwarjigyasu"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.vercel.app/api/wakatime?border_radius=10&hide_border=true&layout=compact&theme=github_light&username=tanwarjigyasu"
+      srcset="https://github-readme-stats.vercel.app/api/wakatime?bg_color=00000000&border_radius=10&hide_border=true&layout=compact&theme=github_light&username=tanwarjigyasu"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
     <img
-      src="https://github-readme-stats.vercel.app/api/wakatime?border_radius=10&hide_border=true&layout=compact&username=tanwarjigyasu"
+      src="https://github-readme-stats.vercel.app/api/wakatime?bg_color=00000000&border_radius=10&hide_border=true&layout=compact&username=tanwarjigyasu"
     />
   </picture>
 </div>
@@ -236,7 +244,7 @@
 &nbsp;
 
 <h2 align="left">
-  <img src="./assets/fire.png" height="40px" width="40px" alt="📈" />
+  <img src="./assets/fire.png" height="40px" width="40px" alt="🌸" />
   <img
     src="https://readgen.vercel.app/text/AniList%20Stats?align=left&family=Protest%20Riot&padding=2.5px&size=30px&weight=400"
     height="40px"
@@ -261,37 +269,37 @@
     width="50px"
     alt='" This'
   />
-    <img
+  <img
     src="https://readgen.vercel.app/text/world?family=Protest%20Riot&size=20px&weight=400"
     height="20px"
     width="50px"
     alt="world"
   />
-    <img
+  <img
     src="https://readgen.vercel.app/text/is?family=Protest%20Riot&size=20px&weight=400"
     height="20px"
     width="15px"
     alt="is"
   />
-    <img
+  <img
     src="https://readgen.vercel.app/text/survival?family=Protest%20Riot&size=20px&weight=400"
     height="20px"
     width="66px"
     alt="survival"
   />
-    <img
+  <img
     src="https://readgen.vercel.app/text/of?family=Protest%20Riot&size=20px&weight=400"
     height="20px"
     width="20px"
     alt="of"
   />
-    <img
+  <img
     src="https://readgen.vercel.app/text/the?family=Protest%20Riot&size=20px&weight=400"
     height="20px"
     width="28px"
     alt="the"
   />
-    <img
+  <img
     src="https://readgen.vercel.app/text/fittest.%20%22?family=Protest%20Riot&size=20px&weight=400"
     height="20px"
     width="73px"
@@ -317,7 +325,6 @@
 </h2>
 
 ![Javascript](./assets/javascript.gif)
-
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-232323?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3&logoColor=white)
