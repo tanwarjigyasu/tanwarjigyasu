@@ -122,6 +122,18 @@
 
 &nbsp;
 
+<div align="center">
+  <a href="https://open.spotify.com/user/tanwarjigyasu">
+    <img src="https://spotify-github-profile.vercel.app/api/view?uid=31c7dst7a3tjbuiep2lymyjgzlry&cover_image=true&theme=novatorem&show_offline=true&interchange=false&bar_color=53b14f&bar_color_cover=false" alt="Spotify Currently Playing">
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://open.spotify.com/user/tanwarjigyasu">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=31c7dst7a3tjbuiep2lymyjgzlry&count=5" alt="Spotify Recently Played">
+  </a>
+</div>
+
 <h2 align="left">
   <img src="./assets/fire.png" height="40px" width="40px" alt="📈" />
   <img
