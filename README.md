@@ -123,21 +123,17 @@
 &nbsp;
 
 <div align="center">
-  <a href="https://open.spotify.com/user/tanwarjigyasu">
-    <img
-      src="https://spotify-github-profile.vercel.app/api/view?uid=31c7dst7a3tjbuiep2lymyjgzlry&cover_image=true&theme=novatorem&show_offline=true&interchange=false&bar_color=53b14f&bar_color_cover=false"
-      alt="Spotify Currently Playing"
-    />
-  </a>
+  <img
+    src="https://spotify-github-profile.vercel.app/api/view?uid=31xd5ux7omwotuagq2lg2xc7xjae&cover_image=true&theme=novatorem&show_offline=true&interchange=false&bar_color=53b14f&bar_color_cover=false"
+    alt="Spotify Currently Playing"
+  />
 </div>
 
 <div align="center">
-  <a href="https://open.spotify.com/user/tanwarjigyasu">
-    <img
-      src="https://spotify-recently-played-readme.vercel.app/api?user=31c7dst7a3tjbuiep2lymyjgzlry&count=5"
-      alt="Spotify Recently Played"
-    />
-  </a>
+  <img
+    src="https://spotify-recently-played-readme.vercel.app/api?user=31xd5ux7omwotuagq2lg2xc7xjae&count=5"
+    alt="Spotify Recently Played"
+  />
 </div>
 
 <h2 align="left">
@@ -187,8 +183,6 @@
     />
   </picture>
 </div>
-
-&nbsp;
 
 <table align="center">
   <tr>
@@ -240,8 +234,6 @@
     />
   </picture>
 </div>
-
-&nbsp;
 
 <h2 align="left">
   <img src="./assets/fire.png" height="40px" width="40px" alt="🌸" />
@@ -325,27 +317,5 @@
 </h2>
 
 ![Javascript](./assets/javascript.gif)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-232323?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![Expo](https://img.shields.io/badge/Expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37)
-![Flask](https://img.shields.io/badge/flask-000000?style=for-the-badge&logo=Flask&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![Javascript](https://img.shields.io/badge/Javascript-yellow?style=for-the-badge&logo=javascript&logoColor=white)
-![Jinja](https://img.shields.io/badge/Jinja-F5F5F5?style=for-the-badge&logo=jinja&logoColor=black)
-![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
-![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/React-232323?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Sass](https://img.shields.io/badge/SASS-ff69b4?style=for-the-badge&logo=sass&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-F5F5F5?style=for-the-badge&logo=windows10&logoColor=007AD6)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-232323?style=for-the-badge&logo=gnu-bash&logoColor=white) ![ChatGPT](https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) ![Expo](https://img.shields.io/badge/Expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37) ![Flask](https://img.shields.io/badge/flask-000000?style=for-the-badge&logo=Flask&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) ![Font Awesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white) ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white) ![Github Actions](https://img.shields.io/badge/Github_Actions-282a2e?style=for-the-badge&logo=githubactions&logoColor=367cfe) ![Github Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=GitHub%20Pages&logoColor=white) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![Javascript](https://img.shields.io/badge/Javascript-yellow?style=for-the-badge&logo=javascript&logoColor=white) ![Jinja](https://img.shields.io/badge/Jinja-F5F5F5?style=for-the-badge&logo=jinja&logoColor=black) ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white) ![Prettier](https://img.shields.io/badge/Prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![React](https://img.shields.io/badge/React-232323?style=for-the-badge&logo=react&logoColor=61DAFB) ![Sass](https://img.shields.io/badge/SASS-ff69b4?style=for-the-badge&logo=sass&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-F5F5F5?style=for-the-badge&logo=windows10&logoColor=007AD6) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
