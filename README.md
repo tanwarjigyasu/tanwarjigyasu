@@ -249,6 +249,14 @@
 
 <div align="center">
   <img
+    src="https://readgen.vercel.app/anilist/genre?id=6480514" 
+  />
+</div>
+
+&nbsp;
+
+<div align="center">
+  <img
     src="https://readgen.vercel.app/anilist/activity?id=6480514"
     width="500px"
   />
