@@ -249,7 +249,7 @@
 
 <div align="center">
   <img
-    src="https://readgen.vercel.app/anilist/activity?count=3&id=6480514"
+    src="https://readgen.vercel.app/anilist/activity?id=6480514"
     width="500px"
   />
 </div>
