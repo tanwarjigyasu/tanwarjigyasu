@@ -124,15 +124,13 @@
 
 <div align="center">
   <img
-    src="https://spotify-github-profile.vercel.app/api/view?uid=31xd5ux7omwotuagq2lg2xc7xjae&cover_image=true&theme=novatorem&show_offline=true&interchange=false&bar_color=53b14f&bar_color_cover=false"
-    alt="Spotify Currently Playing"
+    src="https://spotify-github-profile.vercel.app/api/view?bar_color=53b14f&bar_color_cover=false&cover_image=true&interchange=false&show_offline=true&theme=novatorem&uid=31xd5ux7omwotuagq2lg2xc7xjae"
   />
 </div>
 
 <div align="center">
   <img
-    src="https://spotify-recently-played-readme.vercel.app/api?user=31xd5ux7omwotuagq2lg2xc7xjae&count=5"
-    alt="Spotify Recently Played"
+    src="https://spotify-recently-played-readme.vercel.app/api?count=5&user=31xd5ux7omwotuagq2lg2xc7xjae&unique=true"
   />
 </div>
 
@@ -249,10 +247,14 @@
   width="100%"
 />
 
-<img
-  src="https://apis-by-tanwarjigyasu.vercel.app/anilist/activity/AssassinAguilar.svg"
-  width="100%"
-/>
+<div align="center">
+  <img
+    src="https://readgen.vercel.app/anilist/activity?count=3&id=6480514"
+    width="500px"
+  />
+</div>
+
+&nbsp;
 
 <div align="center">
   <img
