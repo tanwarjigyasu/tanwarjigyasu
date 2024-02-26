@@ -257,6 +257,15 @@
 &nbsp;
 
 <div align="center">
+
+
+![Ichigo Kurosaki](https://readgen.vercel.app/image?border-w=5&h=110&radius=100&w=110&url=https://s4.anilist.co/file/anilistcdn/character/large/b5-RxGEMJZLW4cy.png) ![Ken Kaneki](https://readgen.vercel.app/image?border-w=5&h=110&radius=100&w=110&url=https://s4.anilist.co/file/anilistcdn/character/large/b87275-mb13EWZBdbh3.png) ![Rimuru Tempest](https://readgen.vercel.app/image?border-w=5&h=110&radius=100&w=110&url=https://s4.anilist.co/file/anilistcdn/character/large/b123962-eL9yGV0NLMF7.png) ![Ryushi Korogane](https://readgen.vercel.app/image?border-w=5&h=110&radius=100&w=110&url=https://s4.anilist.co/file/anilistcdn/character/large/b65643-OuY8lZfAfgxp.png) ![Saiki Kusou](https://readgen.vercel.app/image?border-w=5&h=110&radius=100&w=110&url=https://s4.anilist.co/file/anilistcdn/character/large/b90107-ZULW5HlPX1uU.png) ![Tatsumi Ooga](https://readgen.vercel.app/image?border-w=5&h=110&radius=100&w=110&url=https://s4.anilist.co/file/anilistcdn/character/large/b20766-cNWY0sMyC7fI.png)
+
+</div>
+
+&nbsp;
+
+<div align="center">
   <img
     src="https://readgen.vercel.app/text/%22%20This?family=Protest%20Riot&size=20px&weight=400"
     height="20px"
