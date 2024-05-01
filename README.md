@@ -241,32 +241,31 @@
   />
 </h2>
 
-<img
-  src="https://apis-by-tanwarjigyasu.vercel.app/anilist/stats/AssassinAguilar.svg?logo=rgb(14,%20117,%20182)&spacing=1px&weight=400&family=Protest+Riot"
-  width="100%"
-/>
-
 <div align="center">
   <img
-    src="https://readgen.vercel.app/anilist/genre?id=6480514"
-    width="600px"
+    src="https://sniperkamen69.vercel.app/badge/ANIME?amount=150&amount_c=rgb(225,51,51)&amount_f=Wendy+One&amount_s=50&border_c=rgb(255,51,51)&circle_o=42%25&circle_s=28%25&circle_x=50%25&circle_y=36%25&effect_c=rgba(255,51,51,0.5)&h=350&img=https://wallpapercave.com/wp/wp10110308.jpg&space=15&subtext_f=Josefin+Sans&w=250"
   />
-</div>
-
-<div align="center">
   <img
-    src="https://readgen.vercel.app/anilist/activity?count=3&id=6480514"
-    width="600px"
+    src="https://sniperkamen69.vercel.app/badge/CHAPTERS?amount=6K&amount_c=rgb(225,51,51)&amount_f=Wendy+One&amount_s=50&border_c=rgb(255,51,51)&circle_o=50%25&circle_s=35%25&circle_x=62%25&circle_y=45%25&effect_c=rgba(255,51,51,0.5)&h=350&img=https://wallpapercave.com/wp/wp9387769.jpg&space=15&subtext=READ&subtext_f=Josefin+Sans&w=250"
   />
 </div>
 
 &nbsp;
 
 <div align="center">
+  <img
+    width="600px"
+    src="https://cdn.jsdelivr.net/gh/tanwarjigyasu/tanwarjigyasu/assets/activity.svg"
+    />
+</div>
 
+&nbsp;
 
-![Ichigo Kurosaki](https://readgen.vercel.app/image?border-w=5&h=110&radius=100&w=110&url=https://s4.anilist.co/file/anilistcdn/character/large/b5-RxGEMJZLW4cy.png) ![Ken Kaneki](https://readgen.vercel.app/image?border-w=5&h=110&radius=100&w=110&url=https://s4.anilist.co/file/anilistcdn/character/large/b87275-mb13EWZBdbh3.png) ![Rimuru Tempest](https://readgen.vercel.app/image?border-w=5&h=110&radius=100&w=110&url=https://s4.anilist.co/file/anilistcdn/character/large/b123962-eL9yGV0NLMF7.png) ![Ryushi Korogane](https://readgen.vercel.app/image?border-w=5&h=110&radius=100&w=110&url=https://s4.anilist.co/file/anilistcdn/character/large/b65643-OuY8lZfAfgxp.png) ![Saiki Kusou](https://readgen.vercel.app/image?border-w=5&h=110&radius=100&w=110&url=https://s4.anilist.co/file/anilistcdn/character/large/b90107-ZULW5HlPX1uU.png) ![Tatsumi Ooga](https://readgen.vercel.app/image?border-w=5&h=110&radius=100&w=110&url=https://s4.anilist.co/file/anilistcdn/character/large/b20766-cNWY0sMyC7fI.png)
-
+<div align="center">
+  <img
+    width="600px"
+    src="https://cdn.jsdelivr.net/gh/tanwarjigyasu/tanwarjigyasu/assets/genre_card.svg"
+    />
 </div>
 
 &nbsp;
