@@ -331,6 +331,7 @@
     height="40px"
     alt="Tech Stack"
   />
+  <img src="https://cdn.jsdelivr.net/gh/tanwarjigyasu/files/flutter_developer_logo.svg" height="60px" width="60px" align="right" alt="Flutter Developer Logo"/>
 </h2>
 
 ![Javascript](https://cdn.jsdelivr.net/gh/tanwarjigyasu/tanwarjigyasu/assets/javascript.gif)
