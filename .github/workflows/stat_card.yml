@@ -35,6 +35,16 @@ jobs:
             "https://api.github.com/search/issues?q=type:pr+author:$USER" \
             | jq '.total_count')
 
+          echo "Fetching merged PRs..."
+          MERGED_PRS=$(curl -s -H "Authorization: token $TOKEN" \
+            "https://api.github.com/search/issues?q=type:pr+is:merged+author:$USER" \
+            | jq '.total_count')
+
+          echo "Fetching PR reviews..."
+          REVIEWS=$(curl -s -H "Authorization: token $TOKEN" \
+            "https://api.github.com/search/issues?q=reviewed-by:$USER+type:pr" \
+            | jq '.total_count')
+
           echo "Fetching issue count..."
           ISSUES=$(curl -s -H "Authorization: token $TOKEN" \
             "https://api.github.com/search/issues?q=type:issue+author:$USER" \
@@ -52,10 +62,19 @@ jobs:
             "https://api.github.com/search/commits?q=author:$USER+committer-date:>$YEAR_AGO" \
             | jq '[.items[].repository.full_name] | unique | length')
 
+          if [ "$PRS" -gt 0 ]; then
+            PERCENT=$(( MERGED_PRS * 100 / PRS ))
+          else
+            PERCENT=0
+          fi
+
           echo "stars=$STARS" >> $GITHUB_OUTPUT
+          echo "commits=$COMMITS" >> $GITHUB_OUTPUT
           echo "prs=$PRS" >> $GITHUB_OUTPUT
           echo "issues=$ISSUES" >> $GITHUB_OUTPUT
-          echo "commits=$COMMITS" >> $GITHUB_OUTPUT
+          echo "reviews=$REVIEWS" >> $GITHUB_OUTPUT
+          echo "merged=$MERGED_PRS" >> $GITHUB_OUTPUT
+          echo "percent=$PERCENT" >> $GITHUB_OUTPUT
           echo "contributed=$CONTRIBUTED" >> $GITHUB_OUTPUT
 
           SCORE=$(( STARS * 2 + PRS * 5 + ISSUES * 3 + COMMITS * 1 + CONTRIBUTED * 4 ))
@@ -80,6 +99,9 @@ jobs:
           sed -i "s|<p class=\"commits\">.*</p>|<p class=\"commits\">${{ steps.data.outputs.commits }}</p>|" "$FILE"
           sed -i "s|<p class=\"prs\">.*</p>|<p class=\"prs\">${{ steps.data.outputs.prs }}</p>|" "$FILE"
           sed -i "s|<p class=\"issues\">.*</p>|<p class=\"issues\">${{ steps.data.outputs.issues }}</p>|" "$FILE"
+          sed -i "s|<p class=\"reviews\">.*</p>|<p class=\"reviews\">${{ steps.data.outputs.reviews }}</p>|" "$FILE"
+          sed -i "s|<p class=\"merged\">.*</p>|<p class=\"merged\">${{ steps.data.outputs.merged }}</p>|" "$FILE"
+          sed -i "s|<p class=\"percent\">.*</p>|<p class=\"percent\">${{ steps.data.outputs.percent }}%</p>|" "$FILE"
           sed -i "s|<p class=\"contributed\">.*</p>|<p class=\"contributed\">${{ steps.data.outputs.contributed }}</p>|" "$FILE"
           sed -i "s|<p class=\"rank\">.*</p>|<p class=\"rank\">${{ steps.data.outputs.rank }}</p>|" "$FILE"
 
