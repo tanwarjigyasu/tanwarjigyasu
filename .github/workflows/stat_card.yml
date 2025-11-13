@@ -1,0 +1,92 @@
+name: Update GitHub Stats SVG
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install jq
+        run: sudo apt-get install -y jq
+
+      - name: Fetch GitHub stats
+        id: data
+        run: |
+          USER=${{ github.repository_owner }}
+          YEAR_AGO=$(date -d "1 year ago" +%Y-%m-%dT%H:%M:%SZ)
+          TOKEN=${{ github.token }}
+
+          echo "Fetching stars..."
+          STARS=$(curl -s "https://api.github.com/users/$USER/repos?per_page=100" \
+            | jq '[.[] | .stargazers_count] | add')
+
+          echo "Fetching PR count..."
+          PRS=$(curl -s -H "Authorization: token $TOKEN" \
+            "https://api.github.com/search/issues?q=type:pr+author:$USER" \
+            | jq '.total_count')
+
+          echo "Fetching issue count..."
+          ISSUES=$(curl -s -H "Authorization: token $TOKEN" \
+            "https://api.github.com/search/issues?q=type:issue+author:$USER" \
+            | jq '.total_count')
+
+          echo "Fetching commits (last year)..."
+          COMMITS=$(curl -s -H "Authorization: token $TOKEN" \
+            -H "Accept: application/vnd.github.cloak-preview" \
+            "https://api.github.com/search/commits?q=author:$USER+committer-date:>$YEAR_AGO" \
+            | jq '.total_count')
+
+          echo "Fetching repos contributed to (last year)..."
+          CONTRIBUTED=$(curl -s -H "Authorization: token $TOKEN" \
+            -H "Accept: application/vnd.github.cloak-preview" \
+            "https://api.github.com/search/commits?q=author:$USER+committer-date:>$YEAR_AGO" \
+            | jq '[.items[].repository.full_name] | unique | length')
+
+          echo "stars=$STARS" >> $GITHUB_OUTPUT
+          echo "prs=$PRS" >> $GITHUB_OUTPUT
+          echo "issues=$ISSUES" >> $GITHUB_OUTPUT
+          echo "commits=$COMMITS" >> $GITHUB_OUTPUT
+          echo "contributed=$CONTRIBUTED" >> $GITHUB_OUTPUT
+
+          SCORE=$(( STARS * 2 + PRS * 5 + ISSUES * 3 + COMMITS * 1 + CONTRIBUTED * 4 ))
+
+          if   [ $SCORE -ge 150000 ]; then RANK="SSS"
+          elif [ $SCORE -ge 100000 ]; then RANK="SS"
+          elif [ $SCORE -ge 60000 ];  then RANK="S"
+          elif [ $SCORE -ge 30000 ];  then RANK="AAA"
+          elif [ $SCORE -ge 15000 ];  then RANK="AA"
+          elif [ $SCORE -ge 7000 ];   then RANK="A"
+          elif [ $SCORE -ge 3000 ];   then RANK="B"
+          else RANK="C"
+          fi
+
+          echo "rank=$RANK" >> $GITHUB_OUTPUT
+
+      - name: Update SVG
+        run: |
+          FILE="Stats Card.svg"
+
+          sed -i "s|<p class=\"stars\">.*</p>|<p class=\"stars\">${{ steps.data.outputs.stars }}</p>|" "$FILE"
+          sed -i "s|<p class=\"commits\">.*</p>|<p class=\"commits\">${{ steps.data.outputs.commits }}</p>|" "$FILE"
+          sed -i "s|<p class=\"prs\">.*</p>|<p class=\"prs\">${{ steps.data.outputs.prs }}</p>|" "$FILE"
+          sed -i "s|<p class=\"issues\">.*</p>|<p class=\"issues\">${{ steps.data.outputs.issues }}</p>|" "$FILE"
+          sed -i "s|<p class=\"contributed\">.*</p>|<p class=\"contributed\">${{ steps.data.outputs.contributed }}</p>|" "$FILE"
+          sed -i "s|<p class=\"rank\">.*</p>|<p class=\"rank\">${{ steps.data.outputs.rank }}</p>|" "$FILE"
+
+      - name: Commit and push updates
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add "Stats Card.svg"
+          git commit -m "Update Stats Card SVG" || echo "No changes to commit"
+          git push
