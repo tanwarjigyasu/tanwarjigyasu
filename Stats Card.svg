@@ -70,9 +70,10 @@
       <p class="issues">4</p>
       <p class="reviews">0</p>
       <p class="merged">2</p>
-      <p class="percentage"></p>
+      <p class="percent"></p>
       <p class="contributed">3</p>
       <p class="rank">C</p>
     </body>
   </foreignObject>
 </svg>
+
