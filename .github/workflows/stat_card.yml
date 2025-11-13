@@ -74,7 +74,7 @@ jobs:
 
       - name: Update SVG
         run: |
-          FILE="../../Stats Card.svg"
+          FILE="Stats Card.svg"
 
           sed -i "s|<p class=\"stars\">.*</p>|<p class=\"stars\">${{ steps.data.outputs.stars }}</p>|" "$FILE"
           sed -i "s|<p class=\"commits\">.*</p>|<p class=\"commits\">${{ steps.data.outputs.commits }}</p>|" "$FILE"
